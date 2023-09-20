@@ -58,3 +58,5 @@ settings.gradle.projectsLoaded {
 		}
 	}
 }
+include 'dtx-spring'
+

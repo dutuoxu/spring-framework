@@ -7,8 +7,7 @@ import org.springframework.dtx.ServiceImpl;
 public class Main {
 	public static void main(String[] args) {
 
-		AnnotationConfigApplicationContext context =
-				new AnnotationConfigApplicationContext(Config.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
 
 		ServiceImpl serviceImpl = (ServiceImpl) context.getBean("serviceImpl");
 
